@@ -28,6 +28,7 @@ public class ichul extends javax.swing.JFrame {
     private void initComponents() {
 
         jButton1 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -42,6 +43,10 @@ public class ichul extends javax.swing.JFrame {
         });
         getContentPane().add(jButton1);
         jButton1.setBounds(190, 280, 72, 23);
+
+        jLabel1.setText("jLabel1");
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(230, 260, 37, 16);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -87,5 +92,6 @@ public class ichul extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
